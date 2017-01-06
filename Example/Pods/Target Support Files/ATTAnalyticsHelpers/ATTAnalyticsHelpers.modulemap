@@ -1,0 +1,6 @@
+framework module ATTAnalyticsHelpers {
+  umbrella header "ATTAnalyticsHelpers-umbrella.h"
+
+  export *
+  module * { export * }
+}

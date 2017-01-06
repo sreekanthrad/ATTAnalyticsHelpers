@@ -1,0 +1,16 @@
+PODS:
+  - ATTAnalyticsHelpers (0.1.0)
+
+DEPENDENCIES:
+  - ATTAnalyticsHelpers (from `../`)
+
+EXTERNAL SOURCES:
+  ATTAnalyticsHelpers:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ATTAnalyticsHelpers: cda45b17bdaa1a69a22acd1ef409241b671e2df7
+
+PODFILE CHECKSUM: 0616cb2c474c9472603e7ccddbb630342887b988
+
+COCOAPODS: 1.1.1

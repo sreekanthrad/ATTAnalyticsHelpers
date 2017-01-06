@@ -1,0 +1,6 @@
+framework module Pods_ATTAnalyticsHelpers_Tests {
+  umbrella header "Pods-ATTAnalyticsHelpers_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
