@@ -1,7 +1,7 @@
 
 
 Pod::Spec.new do |s|
-    s.name             = 'ATTAnalyticsHelper'
+    s.name             = 'ATTAnalyticsHelpers'
     s.version          = '0.0.1'
     s.summary          = 'A helper library for supporting multiple analytics.'
 
@@ -12,11 +12,11 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/sreekanthrad/ATTAnalyticsHelpers.git', :tag => s.version.to_s }
 
     s.ios.deployment_target = '8.0'
-    s.source_files = 'ATTAnalyticsHelper/Classes/**/*'
+    s.source_files = 'ATTAnalyticsHelpers/Classes/**/*'
 
     s.subspec 'GoogleAnalytics' do |vd|
         ga.prefix_header_contents = '#define GA_EXISTS'
-        ga.source_files = 'ATTAnalyticsHelper/Classes/**/*'
+        ga.source_files = 'ATTAnalyticsHelpers/Classes/**/*'
         ga.dependency 'GoogleAnalytics'
     end
 end
