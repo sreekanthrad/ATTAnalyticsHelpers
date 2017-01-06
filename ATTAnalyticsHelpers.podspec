@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '8.0'
     s.source_files = 'ATTAnalyticsHelpers/Classes/**/*'
 
-    s.subspec 'GoogleAnalytics' do |vd|
+    s.subspec 'GoogleAnalytics' do |ga|
         ga.prefix_header_contents = '#define GA_EXISTS'
         ga.source_files = 'ATTAnalyticsHelpers/Classes/**/*'
         ga.dependency 'GoogleAnalytics'
