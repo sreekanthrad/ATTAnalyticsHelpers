@@ -1,7 +1,7 @@
 
 
 Pod::Spec.new do |s|
-    s.name             = 'PodSample'
+    s.name             = 'ATTAnalyticsHelper'
     s.version          = '0.0.1'
     s.summary          = 'A helper library for supporting multiple analytics.'
 
