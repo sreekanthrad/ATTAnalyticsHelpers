@@ -16,10 +16,10 @@
 		AF579A2F2399C911BA48D6DD39F5C1D7 /* ATTHelpersHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 23DD82A5122E071AFBF6DAD3B6BB7C75 /* ATTHelpersHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8178CC27E5BFB682775F3385219699D /* ATTAnalyticsHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF5D1B4186421E0D4087F5100C9C490 /* ATTAnalyticsHelpers.m */; };
 		E8BCB7ADF612F8696026346E8C2E1D96 /* Pods-ATTAnalyticsHelpers_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A8AAACC61DBEDAC4983B58791EE51 /* Pods-ATTAnalyticsHelpers_Tests-dummy.m */; };
-		F9B9869F1E2CC06600E61414 /* ATTGAHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F9B9869D1E2CC06600E61414 /* ATTGAHelper.h */; };
-		F9B986A01E2CC06600E61414 /* ATTGAHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B9869E1E2CC06600E61414 /* ATTGAHelper.m */; };
 		F9B986A31E2CC24D00E61414 /* ATTConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = F9B986A11E2CC24D00E61414 /* ATTConstants.h */; };
 		F9B986A41E2CC24D00E61414 /* ATTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B986A21E2CC24D00E61414 /* ATTConstants.m */; };
+		F9B986A71E2CC82E00E61414 /* ATTGAHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F9B986A51E2CC82E00E61414 /* ATTGAHelper.h */; };
+		F9B986A81E2CC82E00E61414 /* ATTGAHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B986A61E2CC82E00E61414 /* ATTGAHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,10 +67,10 @@
 		D2789B86AC22C2579126F777DFAD9C24 /* ATTAnalyticsHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ATTAnalyticsHelpers.h; sourceTree = "<group>"; };
 		D4F20260CB052F7C083E2E8426D89DF9 /* GAILogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = Sources/GAILogger.h; sourceTree = "<group>"; };
 		EC067472D931D647D2788AD437FD0CBC /* ATTAnalyticsHelpers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATTAnalyticsHelpers.xcconfig; sourceTree = "<group>"; };
-		F9B9869D1E2CC06600E61414 /* ATTGAHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATTGAHelper.h; path = ATTGAHelper/ATTGAHelper.h; sourceTree = "<group>"; };
-		F9B9869E1E2CC06600E61414 /* ATTGAHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATTGAHelper.m; path = ATTGAHelper/ATTGAHelper.m; sourceTree = "<group>"; };
 		F9B986A11E2CC24D00E61414 /* ATTConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATTConstants.h; sourceTree = "<group>"; };
 		F9B986A21E2CC24D00E61414 /* ATTConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATTConstants.m; sourceTree = "<group>"; };
+		F9B986A51E2CC82E00E61414 /* ATTGAHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATTGAHelper.h; sourceTree = "<group>"; };
+		F9B986A61E2CC82E00E61414 /* ATTGAHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATTGAHelper.m; sourceTree = "<group>"; };
 		FD9FD72EEC250A4443224E62D31786FE /* GAIFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIFields.h; path = Sources/GAIFields.h; sourceTree = "<group>"; };
 		FFF5D1B4186421E0D4087F5100C9C490 /* ATTAnalyticsHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ATTAnalyticsHelpers.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -263,7 +263,7 @@
 		E3DEC122DC1BF653ADE335ABFE798EE8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F9B9869A1E2CC02600E61414 /* ATTGAHelper */,
+				F9B9869A1E2CC02600E61414 /* GoogleAnalytics */,
 				674C0CBBBDA0BD19E26E4194906A543F /* ATTAnalyticsHelper */,
 				F9B986A11E2CC24D00E61414 /* ATTConstants.h */,
 				F9B986A21E2CC24D00E61414 /* ATTConstants.m */,
@@ -272,13 +272,13 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		F9B9869A1E2CC02600E61414 /* ATTGAHelper */ = {
+		F9B9869A1E2CC02600E61414 /* GoogleAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				F9B9869D1E2CC06600E61414 /* ATTGAHelper.h */,
-				F9B9869E1E2CC06600E61414 /* ATTGAHelper.m */,
+				F9B986A51E2CC82E00E61414 /* ATTGAHelper.h */,
+				F9B986A61E2CC82E00E61414 /* ATTGAHelper.m */,
 			);
-			name = ATTGAHelper;
+			name = GoogleAnalytics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,10 +288,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9B986A71E2CC82E00E61414 /* ATTGAHelper.h in Headers */,
 				962DA68597D871D0A74C2B4FFC399FDB /* ATTAnalyticsHelpers.h in Headers */,
 				AF579A2F2399C911BA48D6DD39F5C1D7 /* ATTHelpersHeader.h in Headers */,
 				F9B986A31E2CC24D00E61414 /* ATTConstants.h in Headers */,
-				F9B9869F1E2CC06600E61414 /* ATTGAHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,8 +387,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9195DCE6357BE5CECB16BE3134F5049B /* ATTAnalyticsHelpers-dummy.m in Sources */,
+				F9B986A81E2CC82E00E61414 /* ATTGAHelper.m in Sources */,
 				D8178CC27E5BFB682775F3385219699D /* ATTAnalyticsHelpers.m in Sources */,
-				F9B986A01E2CC06600E61414 /* ATTGAHelper.m in Sources */,
 				F9B986A41E2CC24D00E61414 /* ATTConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
