@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
     s.subspec 'GoogleAnalytics' do |ga|
         ga.prefix_header_contents = '#define GA_EXISTS'
-        ga.source_files = 'ATTAnalyticsHelpers/Classes/**/*'
+        ga.source_files = 'ATTAnalyticsHelpers/Classes/ATTGAHelper/**/*'
         ga.dependency 'GoogleAnalytics'
     end
 end
