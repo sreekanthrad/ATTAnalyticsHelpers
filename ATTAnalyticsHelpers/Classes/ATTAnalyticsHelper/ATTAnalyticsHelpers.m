@@ -41,8 +41,8 @@
 }
 
 - (void)trackedEventNotification:(NSNotification*)notification {
-    if ([notification userInfo]) {
-        [self.gaHelper sampleCall:[notification userInfo]];
+    if ([notification object]) {
+        [self.gaHelper sampleCall:(NSDictionary*)[notification object]];
     }
 }
 

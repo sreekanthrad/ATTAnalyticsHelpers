@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'ATTAnalyticsHelpers'
-    s.version          = '0.0.2'
+    s.version          = '0.0.3'
     s.summary          = 'A helper library for supporting multiple analytics.'
 
     s.homepage         = 'https://github.com/sreekanthrad/ATTAnalyticsHelpers'
